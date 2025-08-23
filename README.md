@@ -1,5 +1,5 @@
 ## Brief Summary
-The goal of this project was to develop a model-based controller for a DC motor whose specs I did not have. 
+This project developed a model-based controller for a DC motor with unknown specifications. Using system identification and MATLAB tools, the controller achieved a settling time of ~0.2 s. Stability was confirmed with Bode plots showing a gain margin of 16.3 dB and a phase margin of 64.6°, and disc margin analysis demonstrated robustness to combined gain and phase variations. The controller successfully regulated the motor’s velocity as intended.
 
 0. [Hardware](#hardware)
 1. [System Identification](#system-identification)
